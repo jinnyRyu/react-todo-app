@@ -1,8 +1,11 @@
 import TodoTemplate from "./components/TodoTemplate";
+import TodoInsert from "./components/TodoInsert";
 
 function App() {
   return (
-    <TodoTemplate>todo application</TodoTemplate>
+    <TodoTemplate>
+      <TodoInsert></TodoInsert>
+    </TodoTemplate>
   );
 }
 
